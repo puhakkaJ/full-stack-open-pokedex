@@ -1,7 +1,8 @@
 module.exports = {
   "env": {
+    'es6': true,
+    'node': true,
     "browser": true,
-    "es6": true,
     "jest/globals": true
   },
   "extends": [
@@ -21,8 +22,8 @@ module.exports = {
   "rules": {
     "indent": [
       "error",
-        2
-      ],
+      2
+    ],
     "linebreak-style": [
       "error",
       "unix"
@@ -43,7 +44,7 @@ module.exports = {
     "arrow-spacing": [
       "error", { "before": true, "after": true }
     ],
-    "no-console": "error",
+    "no-console": 0,
     "react/prop-types": 0
   }
 }
