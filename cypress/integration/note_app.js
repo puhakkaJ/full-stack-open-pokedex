@@ -8,7 +8,7 @@ describe('Pokedex', function() {
   }),
 
   it('pokemon page can be navigated to', function() {
-    cy.contains('Weedle').click()
-    cy.contains('Run Away' )
+    cy.contains('weedle').click()
+    cy.contains('run away' )
   })
 })
