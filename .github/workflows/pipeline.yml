@@ -35,3 +35,4 @@ jobs:
           heroku_email: "jenni.puhakka@aalto.fi"
           healthcheck: "https://mysterious-depths-24063.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
