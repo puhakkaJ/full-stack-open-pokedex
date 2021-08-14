@@ -1,1 +1,1 @@
-worker: node app.js -p $PORT
+web: npm run start-prod
