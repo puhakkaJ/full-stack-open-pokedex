@@ -33,3 +33,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU}}
           heroku_app_name: "mysterious-depths-24063"
           heroku_email: "jenni.puhakka@aalto.fi"
+          healthcheck: "https://mysterious-depths-24063.herokuapp.com/health"
+          checkstring: "ok"
